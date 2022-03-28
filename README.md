@@ -85,11 +85,11 @@ terminal before you run it again.
 
 Below is the an example of first page:
 
-![First Page](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/web_app_home.jpg)
+![First Page](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/web_app_home.JPG)
 
 On submission, you get second page with the predicion as below:
 
-![Second Page](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/web_app_pred.jpg)
+![Second Page](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/web_app_pred.JPG)
 
 ## Project Definition <a name="definition"></a>
 
@@ -117,7 +117,7 @@ predictions on the campaign data.
 
 The data provided is not publicly available according to Bertelsmann Arvato T&Cs.
 
-![Inside Project Folder](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/inside_project_folder.jpg)
+![Inside Project Folder](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/inside_project_folder.JPG)
 
 The code is contained in following files:
 
