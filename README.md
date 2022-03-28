@@ -85,11 +85,11 @@ terminal before you run it again.
 
 Below is the an example of first page:
 
-![First Page](./data/images/web_app_home.jpg)
+![First Page](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/web_app_home.jpg)
 
 On submission, you get second page with the predicion as below:
 
-![Second Page](./data/images/web_app_pred.jpg)
+![Second Page](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/web_app_pred.jpg)
 
 ## Project Definition <a name="definition"></a>
 
@@ -117,7 +117,7 @@ predictions on the campaign data.
 
 The data provided is not publicly available according to Bertelsmann Arvato T&Cs.
 
-![Inside Project Folder](./data/images/inside_project_folder.jpg)
+![Inside Project Folder](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/inside_project_folder.jpg)
 
 The code is contained in following files:
 
@@ -149,18 +149,18 @@ in the column names and use of a language other English to name the columns.
 Quite a big number of the columns had nulls. Before any cleaning was done, a graph of top 15 columns with nulls was 
 plotted, with some columns nearly having everything as null.
 
-![null_percentages](./data/images/null_percentages.png)
+![null_percentages](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/null_percentages.png)
 
 In addition to that, even the description had issues and had to under go cleaning to make sure only valid values were 
 in the file. invalid values were where there are multiple options instead of just one possible entry and nulls.
 After this clean up on the attributes file, even more columns got more nulls.
 
-![more_null_percentages](./data/images/more_null_percentages.png)
+![more_null_percentages](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/more_null_percentages.png)
 
 However, the missing values seemed to have consistency in bothe the customers profile data and the general population data.
 Also, all the data had very low cardinality.
 
-![missing_consistency](./data/images/missing_consistency.png)
+![missing_consistency](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/missing_consistency.png)
 
 Other elements of the EDA included encoding the categorical columns, imputing the null values and scaling the data.
 
@@ -197,7 +197,7 @@ need to look into profitability before launching such services
 
 For starters, the dayta was heavily imbalanced between those who responded and those who did not respond:
 
-![class_imbalance](./data/images/class_imbalance.png)
+![class_imbalance](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/class_imbalance.png)
 
 This meant that even if the model predicted zeroes only for all the data points we would still end up with having a high 
 which would not be correct in this case.
@@ -214,9 +214,9 @@ of ROC AUC score was 0.7469.
 However, AdaBoost seemed to give importance to only one feature while XGBoost seemed to have a more distributed feature 
 importance.
 
-![ada_boost_feature_importance](./data/images/ada_boost_feature_importance.png)
+![ada_boost_feature_importance](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/ada_boost_feature_importance.png)
 
-![xgboost_feature_importance.png](./data/images/xgboost_feature_importance.png)
+![xgboost_feature_importance.png](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project/blob/main/data/images/xgboost_feature_importance.png)
 
 
 ## Project Conclusion <a name="conclusion"></a>
