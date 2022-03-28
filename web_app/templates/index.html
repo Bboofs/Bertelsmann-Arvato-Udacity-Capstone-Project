@@ -1,0 +1,55 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block styles %}
+{{ super() }}
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+{% endblock %}
+
+
+{% block title %}
+Individual Customer Predictions
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <h1>Measuring the Likeliness of an Individual Becoming a Customer</h1>
+
+      <p class="lead">"RESPONSE" - some measure of how likely each individual become a customer and is not necessary a
+        straightforward probability.</p>
+      <p class="lead">Because there is a large output class imbalance where most individuals did not
+        respond to the mailout, predicting individual classes and using accuracy does not seem to be an
+          appropriate performance evaluation method.</p>
+      <p class="space-above"><strong>This form expects 349 fields as was determined post data cleaning</strong></p>
+    </div>
+    <h1>Input Values</h1>
+    <div class="col-xs-12">
+
+      {{ wtf.quick_form(form, horizontal_columns=('lg', 6, 6), form_type="horizontal") }}
+
+      <p class="space-above"><strong>{{ message }}</strong></p>
+
+    </div>
+  </div>
+</div>
+
+<!--
+TIPS about using Flask-Bootstrap:
+Flask-Bootstrap keeps the default Bootstrap stylesheet in the
+env/lib/python3.5/site-packages/flask_bootstrap/static/css/ directory.
+You can replace the CSS file. HOWEVER, when you reinstall requirements
+for your project, you would overwrite all the Bootstrap files
+with the defaults.
+Flask-Bootstrap templates are in
+env/lib/python3.5/site-packages/flask_bootstrap/static/templates
+Modifying the Bootstrap base.html template: use directives and
+Jinja2's super() function. See Jinja2 documentation and also this:
+https://pythonhosted.org/Flask-Bootstrap/basic-usage.html
+-->
+
+{% endblock %}
