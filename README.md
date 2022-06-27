@@ -19,6 +19,8 @@
 
 All the code is in a public repository [here](https://github.com/Bboofs/Bertelsmann-Arvato-Udacity-Capstone-Project)
 
+The Medium article is here [https://medium.com/@McOluga/udacity-data-science-nano-degree-capstone-project-a3215780398c](https://medium.com/@McOluga/udacity-data-science-nano-degree-capstone-project-a3215780398c)
+
 ## Table of Contents
 1. [Installation](#installation)
 1. [Running the Web App](#run_app)
